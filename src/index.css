@@ -8,33 +8,59 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Utility Company Professional Color Palette */
+    --background: 0 0% 98%;
+    --foreground: 215 25% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 215 25% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 215 25% 20%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Electric Blue Primary Theme */
+    --primary: 207 90% 35%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 207 90% 45%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Professional Secondary */
+    --secondary: 210 15% 92%;
+    --secondary-foreground: 215 25% 20%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 210 15% 95%;
+    --muted-foreground: 215 15% 50%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 207 90% 94%;
+    --accent-foreground: 207 90% 35%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Status Colors */
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --success: 140 65% 42%;
+    --success-foreground: 0 0% 100%;
+    
+    --warning: 38 95% 50%;
+    --warning-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Utility System Colors */
+    --border: 215 15% 88%;
+    --input: 215 15% 88%;
+    --ring: 207 90% 35%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(207 90% 35%), hsl(207 90% 45%));
+    --gradient-secondary: linear-gradient(135deg, hsl(210 15% 92%), hsl(210 15% 95%));
+    --gradient-accent: linear-gradient(135deg, hsl(207 90% 94%), hsl(207 90% 98%));
+
+    /* Professional Shadows */
+    --shadow-corporate: 0 4px 12px hsl(207 90% 35% / 0.15);
+    --shadow-subtle: 0 2px 8px hsl(215 25% 20% / 0.08);
+    --shadow-glow: 0 0 20px hsl(207 90% 45% / 0.3);
+
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-fast: all 0.15s ease-out;
 
     --radius: 0.5rem;
 
